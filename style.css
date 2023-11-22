@@ -1,6 +1,12 @@
+
+#everything {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-size: 40px;
-    width: 100%;
+    width: 50%;
     background-color: #000000;
 }
 @font-face { font-family: 'Nbp Informa FiveSix'; src: url('/NbpInformaFivesix-2dXW.ttf'); } 
@@ -13,7 +19,7 @@ header {
 
 header {
     align-items: center;
-    width: 100%;
+    width: 200%;
 }
 
 main {
@@ -156,26 +162,41 @@ border: 1px solid black;
 @media screen and (min-width: 420px) {
     * {
         width:100%;
+        height: fit-content;
+        align-items: center;
     }
 
+    #everything {
+        width: fit-content;
+        align-items: center;
+    }
     body {
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left: 15%;
     }
     #items {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 6%;
+        padding-top: 20%;
+        font-size: 120%;
+
     }
     #title {
         font-size: 170%;
     }
     header {
-        padding: 10%;
+        padding: 5%;
+    }
+    #ep1 {
+        padding: 5%;
+    }
+    footer {
+        margin-top: 40%;
     }
 
 
