@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 40px;
     width: 100%;
     background-color: #000000;
 }
@@ -143,14 +143,16 @@ border: 1px solid black;
     }
 }
 
-@media screen and (min-width: 480px) {
-
-    body {
-        font-size: 10px;
-        width: 100%;
-    }
+#links {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 200%;
+    justify-content: space-between;
 }
-
+#ep1 {
+    padding: 1%;
+}
 @media screen and (min-width: 420px) {
 
     body {
